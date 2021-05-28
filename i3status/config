@@ -1,0 +1,8 @@
+# Add this to your i3status config
+order += "read_file layout"
+
+read_file layout {
+    color_good = "#FFFF00"
+    path = "/tmp/current_layout"
+    format_bad = ""
+}
